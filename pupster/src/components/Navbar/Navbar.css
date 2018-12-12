@@ -1,3 +1,13 @@
 nav.navbar.navbar-default {
     margin-bottom: 0;
   }
+/* .navbar-nav .nav-item .nav-link .safety-tips {
+  color: red;
+} */
+/* .navbar-light .navbar-nav .nav-item .nav-link .safety-tips {
+  color:red;
+} */
+
+.navbar-light .navbar-nav .nav-link .safety-tips {
+  color: red;
+}
