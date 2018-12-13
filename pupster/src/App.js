@@ -2,7 +2,7 @@ import React from 'react';
 //import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar"
-// import Wrapper from "./components/Wrapper"
+import Wrapper from "./components/Wrapper"
 import Footer from "./components/Footer"
 import About from "./pages/About";
 import Discover from "./pages/Discover";
@@ -15,13 +15,13 @@ const App = ()=> (
   <Router>
     <div>
       <Navbar/>
-      {/* <Wrapper> */}
+      <Wrapper>
         <Route exact path="/" component={About} />
         <Route exact path="/about" component={About} />
         <Route exact path="/.safety" component={About} />
         <Route exact path="/discover" component={Discover} />
         <Route exact path="/search" component={Search} />
-      {/* </Wrapper> */}
+      </Wrapper>
       <Footer/>
     </div>
   </Router>

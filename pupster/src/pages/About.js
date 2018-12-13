@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Container from "../components/Container";
-import Carousel from "../components/Carousel";
+//import SafetyTips from "../components/Carousel";
 
 
 
@@ -36,13 +36,13 @@ const About = () => (
             augue. Fusce mauris ex, dignissim et lacinia ut, tempus eget nibh.
           </p>
           <h1 className="safety">SAFETY TIPS</h1>
-          <Carousel
-          imageOne= "https://i.imgur.com/jxwOS1b.jpg"
+          {/* <SafetyTips/> */}
+        //   imageOne= "https://i.imgur.com/jxwOS1b.jpg"
           
-          imageTwo= "https://i.imgur.com/b3p1iYc.jpg"
-          imageThree= "https://i.imgur.com/b3p1iYc.jpg">
+        //   imageTwo= "https://i.imgur.com/b3p1iYc.jpg"
+        //   imageThree= "https://i.imgur.com/b3p1iYc.jpg">
           
-          </Carousel>
+          {/* </Carousel> */}
           </Container>
           
           {/* https://alldogstrain.com/wp-content/uploads/2017/04/Dogs-Temperature.png */}
