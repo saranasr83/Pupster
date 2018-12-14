@@ -13,9 +13,9 @@ const Navbar = () => (
                 <li
                     className={
                         window.location.pathname === "/" ||
-                        window.location.pathname === "/about"
-                        ? "nav-item active"
-                        : "nav-item"
+                            window.location.pathname === "/about"
+                            ? "nav-item active"
+                            : "nav-item"
                     }
                 >
                     <Link className="nav-link" to="/">
@@ -23,7 +23,7 @@ const Navbar = () => (
                     </Link>
 
                 </li>
-                <li
+                {/* <li
                     className={
                         window.location.pathname === "/"
                         ? "nav-item active"
@@ -33,12 +33,21 @@ const Navbar = () => (
                     <Link className="nav-link safety-tips" to="/.safety">
                         Safety Tips
                     </Link>
+                </li> */}
+                <li className={
+                    window.location.pathname === "/"
+                        ? "nav-item active"
+                        : "nav-item"
+                }>
+                    <a href="/#safety">
+                        Safety Tips
+                    </a>
                 </li>
                 <li
                     className={
                         window.location.pathname === "/discover"
-                        ? "nav-item active"
-                        : "nav-item"
+                            ? "nav-item active"
+                            : "nav-item"
                     }
                 >
                     <Link className="nav-link" to="/discover">
@@ -49,8 +58,8 @@ const Navbar = () => (
                 <li
                     className={
                         window.location.pathname === "/search"
-                        ? "nav-item active"
-                        : "nav-item"
+                            ? "nav-item active"
+                            : "nav-item"
                     }
                 >
                     <Link className="nav-link" to="/search">

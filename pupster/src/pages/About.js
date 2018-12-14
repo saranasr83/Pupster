@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Container from "../components/Container";
-//import SafetyTips from "../components/Carousel";
+import SafetyTips from "../components/Carousel";
 
 
 
@@ -35,14 +35,17 @@ const About = () => (
             blandit mi eu urna scelerisque, vitae volutpat ligula ultricies. Maecenas vel porta
             augue. Fusce mauris ex, dignissim et lacinia ut, tempus eget nibh.
           </p>
-          <h1 className="safety">SAFETY TIPS</h1>
-          {/* <SafetyTips/> */}
-        //   imageOne= "https://i.imgur.com/jxwOS1b.jpg"
+          <br/>
+          <h1 id="safety" style={{marginLeft:450}}>SAFETY TIPS</h1>
+          <br/>
+          <SafetyTips
+          imageOne="http://nsvhok.com/wp-content/uploads/2014/08/DVM-Firesafety-750x808.jpg"
+          imageTwo="https://www.jaxhumane.org/wp-content/uploads/2017/05/hot-cars-infographic-061815.jpg"
+          imageThree="https://blog.plymouthrock.com/wp-content/uploads/2017/01/FB_ENT_Pet_Winter_Tips_Blog.jpg"
+          />
+        
           
-        //   imageTwo= "https://i.imgur.com/b3p1iYc.jpg"
-        //   imageThree= "https://i.imgur.com/b3p1iYc.jpg">
-          
-          {/* </Carousel> */}
+         
           </Container>
           
           {/* https://alldogstrain.com/wp-content/uploads/2017/04/Dogs-Temperature.png */}
