@@ -19,7 +19,6 @@ class Discover extends Component {
         const dogChoice = Math.floor(Math.random() * 5) + 1
         if(btnType==='pick' && dogChoice === 1 ){
             this.setState({matchCount: this.state.matchCount+1 , match: true})
-
         } else {
             this.setState({match: false})
         }
