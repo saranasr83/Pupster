@@ -8,6 +8,10 @@ nav.navbar.navbar-default {
   color:red;
 } */
 
-.navbar-light .navbar-nav .nav-link .safety-tips {
-  color: red;
+.navbar-light .navbar-brand{
+  padding-top: 8px;
+}
+.navbar-nav>li>a {
+  padding-top: 0;
+  color:red;
 }

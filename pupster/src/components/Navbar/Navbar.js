@@ -39,7 +39,7 @@ const Navbar = () => (
                         ? "nav-item active"
                         : "nav-item"
                 }>
-                    <a href="/#safety">
+                    <a href="/#safety" className="saftey-t">
                         Safety Tips
                     </a>
                 </li>
