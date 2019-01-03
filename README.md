@@ -1,3 +1,7 @@
+<h1 align="center">
+  <a href="https://cryptic-island-64610.herokuapp.com/"><img src="https://i.imgur.com/b3p1iYc.jpg" alt="puppy" width="500"></a>
+</h1>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
