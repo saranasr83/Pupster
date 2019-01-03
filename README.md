@@ -1,6 +1,7 @@
 <h1 align="center">
-<h2><a href="https://cryptic-island-64610.herokuapp.com/"></a>Pupster</h2>
-  <a href="https://cryptic-island-64610.herokuapp.com/"><img src="https://i.imgur.com/b3p1iYc.jpg" alt="puppy" width="500"></a>
+<h2>
+<a href="https://cryptic-island-64610.herokuapp.com/" target="_blank" >Pupster</a></h2>
+  <a href="https://cryptic-island-64610.herokuapp.com/"><img src="https://i.imgur.com/b3p1iYc.jpg" target="_blank" alt="puppy" width="500"></a>
 </h1>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
