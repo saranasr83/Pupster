@@ -1,4 +1,5 @@
 <h1 align="center">
+<h2>Pupster</h2>
   <a href="https://cryptic-island-64610.herokuapp.com/"><img src="https://i.imgur.com/b3p1iYc.jpg" alt="puppy" width="500"></a>
 </h1>
 
